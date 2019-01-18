@@ -1,0 +1,16 @@
+type Student{
+    id: ID!,
+    name: String,
+    age: Int,
+    sex: Boolean
+}
+
+type Query {
+    students: [Student],
+    student(id: String): Student
+}
+
+type Mutation {
+    saveStudent(id:String,name:String,age:Int,sex:Boolean): Student,
+    deleteStudent(id:String): [Student]
+}

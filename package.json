@@ -1,0 +1,23 @@
+{
+  "name": "apollo-server-express-demo",
+  "version": "1.0.0",
+  "description": "A demo to show how to use apollo-server and gql in Node Express Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "apollo-server-express",
+    "gql"
+  ],
+  "author": "Janden.Ma",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "require-text": "0.0.1"
+  }
+}
